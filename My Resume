@@ -37,6 +37,8 @@
 
 %-------------------- DOCUMENT --------------------
 \begin{document}
+\pagestyle{empty}
+
 
 %==================== HEADER ====================
 \begin{center}
