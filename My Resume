@@ -1,0 +1,136 @@
+\documentclass[10.5pt,a4paper]{article}
+
+%-------------------- PACKAGES --------------------
+\usepackage[left=1.0cm,right=1.0cm,top=0.9cm,bottom=0.9cm]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{xcolor}
+
+%-------------------- LINKS --------------------
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue
+}
+
+%-------------------- GLOBAL SPACING --------------------
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\renewcommand{\baselinestretch}{1.01}
+
+%-------------------- SECTION STYLE --------------------
+\titleformat{\section}
+  {\large\bfseries\scshape}
+  {}
+  {0pt}
+  {}[\vspace{-3pt}\hrule\vspace{4pt}]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+%-------------------- LIST STYLE --------------------
+\setlist[itemize]{
+  leftmargin=*,
+  itemsep=1pt,
+  topsep=2pt
+}
+
+%-------------------- DOCUMENT --------------------
+\begin{document}
+
+%==================== HEADER ====================
+\begin{center}
+{\Huge\bfseries Pratyush Kundu}\\[-2pt]
+{\normalsize Electrical Engineering Undergraduate}\\[-2pt]
+Siliguri, West Bengal, India\\[-2pt]
++91-7586093596 \;|\;
+\href{mailto:pk2728@ee.agemc.ac.in}{pk2728@ee.agemc.ac.in}\\[-2pt]
+\href{https://www.linkedin.com/in/pratyushkundu}{linkedin.com/in/pratyushkundu}
+\;|\;
+\href{https://github.com/Pratyushkundu01}{github.com/Pratyushkundu01}
+\end{center}
+
+%==================== PROFILE ====================
+\section*{Profile}
+Electrical Engineering undergraduate with interest in \textbf{Robotics, Embedded Systems, Power Electronics and \\Power Systems, Digital and Analog Electronics, and Autonomous UAVs}.  
+Hands-on experience in \textbf{embedded hardware integration, real-time control, sensing systems, and MATLAB-based modeling}.
+
+%==================== EDUCATION ====================
+\section*{Education}
+\textbf{Alipurduar Government Engineering and Management College}
+\hfill \textit{2023 -- 2027}\\
+\hfill Alipurduar, West Bengal, India\\
+B.Tech in \textbf{Electrical Engineering} (MAKAUT) \;|\; WBJEE 2023 Qualified
+
+\vspace{2pt}
+\textbf{Higher Secondary — WBCHSE (English Medium)} 
+\hfill \textit{2020 -- 2022}\\
+\hfill Siliguri, West Bengal, India \\
+\textbf{Siliguri Baradakanta Vidyapith} — Science \textbf{(82.2\%)}
+
+\vspace{1pt}
+\textbf{Secondary — WBBSE (English Medium)} 
+\hfill \textit{2015 -- 2020}\\
+\hfill Jalpaiguri, West Bengal , India \\
+\textbf{Pranavananda Centenary Shikshayatan} \textbf{(83.7\%)}
+
+%==================== TECHNICAL SKILLS ====================
+\section*{Technical Skills}
+\textbf{Programming:} C,C++, Python \;|\;
+\textbf{Embedded Systems:} ESP32, Arduino, GPIO, PWM, UART, EEPROM\\
+\textbf{Core skills:} Power Electronics, Motors, Rectifiers\\
+\textbf{Tools:} MATLAB, Simulink, PSpice, Multisim \;|\;
+\textbf{Domains:} Robotics, UAVs, IoT, Embedded Systems, Power Electronics
+
+%==================== EXPERIENCE ====================
+\section*{Experience}
+
+\textbf{Summer Intern — Jalpaiguri Government Engineering College} \hfill \textit{Jun–Jul 2025}
+\begin{itemize}
+\item Control system modeling using \textbf{MATLAB/Simulink} and circuit simulation using \textbf{PSpice}.
+\item Practical exposure to transformers, motors, variac operation, and coil winding.
+\item Industrial observation of electrical systems at Caron Tea Factory.
+\end{itemize}
+
+\textbf{RKVY Trainee — Indian Railways (Kolkata Metro)} \hfill \textit{Jul 2024}
+\begin{itemize}
+\item Studied traction motors, substations, battery banks, and metro power distribution.
+\item Learned about the maintenance of Rolling Stock.
+\end{itemize}
+
+%==================== PROJECTS ====================
+\section*{Projects}
+
+\textbf{ASCEND — Autonomous UAV for GPS-Denied Exploration} \hfill \textit{Ongoing}
+\begin{itemize}
+\item Vision–inertial navigation, energy-aware mission logic, and fail-safe autonomy.
+\end{itemize}
+
+\textbf{S.A.N.K.A.L.P. — Signal-Activated Robotic Navigation System}\hfill\href{https://github.com/Pratyushkundu01/Signal-Activated-Navigation-with-Kinematic-Arm-and-Locomotion-Precision-S.A.N.K.A.L.P.}{GitHub}
+\begin{itemize}
+\item Team Lead; ESP32–Arduino UART architecture, EEPROM state retention, sinusoidal PWM control.
+\item Finalist — Control Craft, SRIJAN 2K25, \textbf{Jadavpur University.}
+\end{itemize}
+
+\textbf{IoT-Enabled Robotic Car with Obstacle Detection}\hfill\href{https://github.com/Pratyushkundu01/IOT-Enabled-Robot-with-Obstacle-detection-system}{GitHub}
+\begin{itemize}
+\item ESP32-based robotic platform with ultrasonic sensing and autonomous obstacle avoidance.
+\end{itemize}
+
+%==================== TECHNICAL INTERESTS ====================
+\section*{Technical Interests}
+Autonomous Systems, UAV Navigation, Embedded Systems, Power Electronics Fundamentals, 
+Sensors \& Actuators,\\Industrial Electrical Systems, Robotics System Integration.
+
+%==================== CERTIFICATIONS ====================
+\section*{Certifications}
+IoT — NPTEL (\textbf{IIT Kharagpur}) \textbf{Elite + Silver} \\
+Joy of Computing using Python — NPTEL (\textbf{IIT Ropar}) \textbf{(Elite + Silver)\\}
+Problem Solving Through Programming in C —  NPTEL (\textbf{IIT Kharagpur})
+%==================== LEADERSHIP ====================
+\section*{Achievements and Co-Curricular Activities}
+Finalist in Robotics Contest at \textbf{Jadavpur University}\;|\;
+Event Organizer —\textbf{ College Quiz} (Quiver) \;|\\
+Content Moderator — \textbf{Siliguri Quiz Club }|  Runners-up at\textbf{ Quiz Premier League Season 10} \\Finalist in Creative writing Contest at \textbf{Coochbehar Government Engineering College }
+
+\end{document}
